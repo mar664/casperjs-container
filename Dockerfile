@@ -18,4 +18,4 @@ RUN \
   apt-get autoremove -y && \
   apt-get clean all
 
-  ENTRYPOINT ["python", "/casperjs/server.py"]
+  ENTRYPOINT ["python", "/selenium/server.py"]
